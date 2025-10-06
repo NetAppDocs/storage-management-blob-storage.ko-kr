@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Azure Blob 저장소 설명서
+  summary: NetApp 콘솔을 사용하여 Azure Blob 스토리지를 사용해 보세요.
+  keywords: bluexp, documentation, storage, storage management, azure blob, netapp
+    console
+  lead: NetApp 콘솔을 사용하여 Azure Blob 스토리지를 사용해 보세요.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: Azure Blob 저장소 계정 보기
+      url: task-view-azure-blob-storage.html
+  - title: Azure Blob 저장소 계정 관리
+    links:
+    - title: Blob 스토리지 계정 추가
+      url: task-add-blob-storage.html
+    - title: 저장소 계정 설정 변경
+      url: task-change-blob-storage-settings.html
+    - title: Azure Blob 스토리지와 함께 NetApp 데이터 서비스 사용
+      url: task-blob-enable-data-services.html
+  - title: 더 많은 정보
+    links:
+    - title: 콘솔 외부에서 관리하기 위한 Azure Blob 저장소 설명서
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 콘솔
+      url: https://www.netapp.com/console
+    - title: NetApp 데이터 서비스
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

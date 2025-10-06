@@ -1,0 +1,13 @@
+= BlueXP 는 이제 NetApp 콘솔입니다.
+:allow-uri-read: 
+
+
+
+
+=== BlueXP 는 이제 NetApp 콘솔입니다.
+
+BlueXP 데이터 인프라 관리에서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다.
+
+NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반의 스토리지 및 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공합니다.
+
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .

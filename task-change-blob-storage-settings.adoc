@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: Azure Blob Storage 시스템을 시스템 페이지에서 사용할 수 있게 되면 NetApp 콘솔에서 일부 스토리지 계정 속성을 직접 변경할 수 있습니다. 
+---
+= NetApp 콘솔에서 Azure Blob 스토리지 계정 설정 변경
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Blob Storage 시스템을 시스템 페이지에서 사용할 수 있게 되면 NetApp 콘솔에서 일부 스토리지 계정 속성을 직접 변경할 수 있습니다.
+
+저장소 계정 이름, Azure 지역 또는 저장소의 성능 유형은 변경할 수 없습니다.
+
+변경할 수 있는 저장소 계정 속성은 다음과 같습니다.
+
+* 저장소 계정에 대한 구독 및 리소스 그룹입니다.
+* 저장소 계정에 추가된 개체에 대한 태그를 추가, 변경 또는 제거합니다.
+* 저장소 계정에 새로 추가된 개체를 암호화할지 여부와 암호화에 사용되는 옵션입니다.
+
+
+콘솔에서 직접 이러한 저장소 계정 설정을 변경할 수 있습니다.image:button-horizontal-more.gif["세 개의 점 더하기 버튼"] 저장 계정용.
+
+image:screenshot-edit-azure-blob-storage.png["콘솔에서 스토리지 계정 속성을 편집하는 방법을 보여주는 스크린샷입니다."]
+
+
+
+== 프로젝트 세부 정보 변경
+
+_프로젝트 세부 정보_ 섹션에서 저장소 계정에 대한 구독과 리소스 그룹을 변경할 수 있습니다.
+
+[cols="25,75"]
+|===
+| 필드 | 설명 
+
+
+| 신청 | 저장소 계정에 대해 다른 Azure 구독을 선택하세요. 
+
+
+| 리소스 그룹  a| 
+저장소 계정에 대해 다른 리소스 그룹을 선택하세요.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["리소스 그룹에 대해 자세히 알아보세요"^] .
+
+|===
+*저장*을 선택하여 저장소 계정에 대한 변경 사항을 저장합니다.
+
+
+
+== 저장소 계정의 객체에 대한 태그를 추가하거나 변경합니다.
+
+_태그_ 섹션에서는 최대 10개의 태그 키/값 쌍을 추가하거나 태그 키/값 쌍을 변경하거나 삭제할 수 있습니다.  태그는 저장소 계정에 개체가 추가될 때 적용됩니다.  더 많은 태그를 추가하려면 *새 태그 추가*를 선택하세요.
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Microsoft 설명서에서 태그 지정에 대해 자세히 알아보세요."^] .
+
+*저장*을 선택하여 저장소 계정에 대한 변경 사항을 저장합니다.
+
+
+
+== 암호화 설정 변경
+
+_암호화_ 섹션에서는 저장소 계정의 데이터에 대한 액세스를 보호하는 데 사용할 데이터 암호화 유형을 변경할 수 있습니다.
+
+[cols="25,75"]
+|===
+| 데이터 암호화 유형 | 설명 
+
+
+| Microsoft 관리 키 | 기본적으로 Microsoft에서 관리하는 암호화 키는 데이터를 암호화하는 데 사용됩니다. 
+
+
+| 고객 관리 키  a| 
+기본 Microsoft 관리 암호화 키 대신 고객이 관리하는 키를 사용하여 데이터를 암호화할 수 있습니다.  고객이 직접 관리하는 키를 사용할 계획이라면, 이 페이지에서 키 보관소와 키를 선택할 수 있도록 이미 키를 생성해 두어야 합니다.
+
+키는 스토리지 계정과 동일한 구독에 있을 수도 있고, 다른 구독을 선택할 수도 있습니다.
+
+|===
+Microsoft Azure 설명서를 참조하세요. https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoft 관리 키에 대한 자세한 정보"^] , 그리고 https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["고객 관리 키에 대한 자세한 정보"^] .
+
+*저장*을 선택하여 저장소 계정에 대한 변경 사항을 저장합니다.

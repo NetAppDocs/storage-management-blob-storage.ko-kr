@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: NetApp 콘솔 시스템 페이지에서 Azure Blob Storage 시스템을 사용할 수 있게 되면 콘솔에서 직접 추가 스토리지 계정을 추가할 수 있습니다. 
+---
+= NetApp 콘솔에서 Azure Blob 스토리지 계정 추가
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔 시스템 페이지에서 Azure Blob Storage 시스템을 사용할 수 있게 되면 콘솔에서 직접 추가 스토리지 계정을 추가할 수 있습니다.
+
+.단계
+. 시스템 페이지에서 Azure Blob Storage 시스템을 선택하여 개요 페이지를 봅니다.
+. *저장소 계정 추가*를 선택합니다.
++
+image:screenshot-add-blob-storage-button.png["Azure Blob Storage 시스템의 세부 정보와 저장소 계정 추가 버튼을 보여주는 스크린샷입니다."]
+
++
+_저장소 계정 추가_ 페이지가 표시됩니다.
+
++
+image:screenshot-add-blob-storage.png["Azure Blob Storage 계정을 직접 만들 수 있는 저장소 계정 추가 페이지를 보여주는 스크린샷입니다."]
+
+. _프로젝트 세부 정보_ 섹션에 필요한 정보를 입력하세요.
++
+[cols="25,75"]
+|===
+| 필드 | 설명 
+
+
+| 신청 | 새 저장소 계정에 대한 Azure 구독을 선택합니다. 
+
+
+| 리소스 그룹  a| 
+이 저장소 계정에 대한 기존 리소스 그룹을 선택하세요.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["리소스 그룹에 대해 자세히 알아보세요"^] .
+
+|===
+. _인스턴스 세부 정보_ 섹션에서 스토리지 계정의 이름을 입력하고, 스토리지 계정을 생성할 지역(들)을 선택합니다.
++
+[cols="25,75"]
+|===
+| 필드 | 설명 
+
+
+| 저장소 계정 이름 | 저장소 계정에 사용할 이름을 입력하세요.  이름은 3~24자 길이여야 하며 숫자와 소문자만 포함할 수 있습니다. 
+
+
+| Azure 지역  a| 
+목록에서 저장소 계정이 생성될 지역을 선택하세요.
+
+귀하의 스토리지 계정에 적합한 지역을 선택하세요. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Azure 지역 및 가용성 영역에 대한 정보는 Microsoft 설명서를 참조하세요."^] .
+
+모든 지역에서 모든 유형의 스토리지 계정이나 중복성 구성이 지원되는 것은 아닙니다. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Azure Storage 중복성에 대한 정보는 Microsoft 설명서를 참조하세요."^] .
+
+또한, 지역 선택은 청구에 영향을 미칠 수 있습니다. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Azure Storage 계정 청구에 대한 정보는 Microsoft 설명서를 참조하세요."^] .
+
+
+
+| 성능 유형  a| 
+*표준* 성능 스토리지를 사용할지, *프리미엄* 성능 스토리지를 사용할지 선택하세요. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["저장소 계정 유형에 대한 정보는 Microsoft 설명서를 참조하세요."^] .
+
+** _표준_ 성능은 일반 용도의 v2 스토리지 계정에 사용됩니다.  이러한 유형의 계정은 대부분의 경우에 권장됩니다.
+** _프리미엄_ 성능은 낮은 지연 시간이 필요한 시나리오에 사용됩니다.  프리미엄 스토리지 계정에는 블록 블롭, 파일 공유, 페이지 블롭의 세 가지 유형이 있습니다.
+
+
+|===
+. _태그_ 섹션에서는 최대 10개의 태그 키/값 쌍을 입력하여 리소스를 그룹화할 수 있습니다.
++
+태그는 리소스를 그룹화하여 애플리케이션, 환경, 지역, 클라우드 공급자 등을 식별하는 데 사용할 수 있는 메타데이터입니다. 저장소 계정에 태그를 추가하면 저장소 계정에 개체가 추가될 때 태그가 개체에 적용됩니다.
+
++
+콘솔에서 생성된 새 스토리지 계정에서는 태그가 기본적으로 비활성화됩니다. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["태그에 대해 자세히 알아보세요"^] .
+
+. _암호화_ 섹션에서 저장소 계정의 데이터에 대한 액세스를 보호하는 데 사용할 데이터 암호화 유형을 선택합니다.
++
+[cols="25,75"]
+|===
+| 데이터 암호화 유형 | 설명 
+
+
+| Microsoft 관리 키 | 기본적으로 Microsoft에서 관리하는 암호화 키는 데이터를 암호화하는 데 사용됩니다. 
+
+
+| 고객 관리 키  a| 
+기본 Microsoft 관리 암호화 키 대신 고객이 관리하는 키를 사용하여 데이터를 암호화할 수 있습니다.  고객이 직접 관리하는 키를 사용할 계획이라면, 이 페이지에서 키 보관소와 키를 선택할 수 있도록 이미 키를 생성해 두어야 합니다.
+
+키는 스토리지 계정과 동일한 구독에 있을 수도 있고, 다른 구독을 선택할 수도 있습니다.
+
+|===
++
+Microsoft Azure 설명서를 참조하세요. https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoft 관리 키에 대한 자세한 정보"^] , 그리고 https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["고객 관리 키에 대한 자세한 정보"^] .
+
+. 버킷을 생성하려면 *추가*를 선택하세요.
+
