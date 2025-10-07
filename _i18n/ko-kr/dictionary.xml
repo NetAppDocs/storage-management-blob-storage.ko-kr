@@ -2,12 +2,10 @@
 <blocks>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">BlueXP 에서 새로운 스토리지 계정을 추가하는 기능</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">새 Azure Blob 저장소 계정을 추가하는 방법 알아보기</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">여러분은 꽤 오랫동안 BlueXP Canvas에서 Azure Blob Storage를 볼 수 있었습니다.  이제 BlueXP 에서 직접 새로운 스토리지 계정을 추가하고 기존 스토리지 계정의 속성을 변경할 수 있습니다. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP 는 이제 NetApp 콘솔입니다.</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP 데이터 인프라 관리에서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다.</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반의 스토리지 및 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공합니다.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetApp 콘솔 릴리스 노트</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지사항은 저작권 표시, 상표, 특허 등에 대한 정보를 제공합니다.</block>
@@ -28,7 +26,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">공지 파일은 NetApp 소프트웨어에서 사용되는 타사 저작권 및 라이선스에 대한 정보를 제공합니다.</block>
   <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp 콘솔에 대한 알림</block>
-  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
   <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">NetApp 콘솔 시스템 페이지에서 Azure Blob Storage 시스템을 사용할 수 있게 되면 콘솔에서 직접 추가 스토리지 계정을 추가할 수 있습니다.</block>
   <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">NetApp 콘솔에서 Azure Blob 스토리지 계정 추가</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -79,22 +76,18 @@
   <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">고객 관리 키에 대한 자세한 정보</block>
   <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">Microsoft Azure 설명서를 참조하세요.<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block> , 그리고<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block> .</block>
   <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">버킷을 생성하려면 *추가*를 선택하세요.</block>
-  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">BlueXP 에서 Azure Blob 스토리지 계정을 발견하면 NetApp 데이터 서비스를 사용하여 백업, 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
   <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Azure Blob 스토리지와 함께 NetApp 데이터 서비스 사용</block>
   <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">NetApp 콘솔에서 Azure Blob 스토리지 계정을 검색한 후에는 NetApp 데이터 서비스를 사용하여 백업, 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
   <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">* NetApp Backup and Recovery*를 사용하여 온프레미스 ONTAP 및 Cloud Volumes ONTAP 시스템의 데이터를 Azure Blob 스토리지로 백업합니다.</block>
   <block id="de91c1448816840d85691a77ebd16003" category="paragraph">시작하려면 시스템 페이지로 이동하세요.  온-프레미스 ONTAP 또는 Cloud Volumes ONTAP 시스템을 Azure Blob Storage 시스템으로 끌어서 놓습니다.</block>
   <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">ONTAP 데이터를 Azure Blob 스토리지에 백업하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> .</block>
   <block id="95578947246790f85684248eaa680963" category="list-text">* NetApp Cloud Tiering*을 사용하여 온프레미스 ONTAP 클러스터의 비활성 데이터를 Azure Blob 스토리지로 계층화합니다.</block>
   <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">시작하려면 시스템 페이지로 이동하세요.  온-프레미스 ONTAP 시스템을 Azure Blob Storage 시스템으로 끌어서 놓습니다.</block>
   <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">ONTAP 데이터를 Azure Blob 스토리지에 계층화하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> .</block>
   <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">* NetApp Copy and Sync*를 사용하여 Azure Blob 스토리지 계정과 데이터를 동기화합니다.</block>
   <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">시작하려면 시스템 페이지로 이동하세요.  소스 시스템을 대상 시스템으로 끌어다 놓습니다.  Azure Blob Storage 시스템은 소스 또는 대상이 될 수 있습니다.</block>
   <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">Azure Blob Storage 시스템을 선택한 다음 서비스 패널에서 *복사 및 동기화*를 선택하여 Azure Blob Storage 계정과 데이터를 동기화할 수도 있습니다.</block>
   <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">복사 및 동기화에 대해 자세히 알아보세요</block>
-  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> .</block>
   <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">Azure Blob Storage 시스템을 시스템 페이지에서 사용할 수 있게 되면 NetApp 콘솔에서 일부 스토리지 계정 속성을 직접 변경할 수 있습니다.</block>
   <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">NetApp 콘솔에서 Azure Blob 스토리지 계정 설정 변경</block>
   <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">저장소 계정 이름, Azure 지역 또는 저장소의 성능 유형은 변경할 수 없습니다.</block>
@@ -204,7 +197,6 @@
   <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">Azure에 콘솔 에이전트를 설치하면 NetApp 콘솔은 콘솔 에이전트가 설치된 Azure 구독에 있는 Azure 스토리지 계정에 대한 정보를 자동으로 검색할 수 있습니다.  Azure Blob 시스템이 시스템 페이지에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">위치, 리소스 그룹, 사용 용량 등을 포함하여 Azure Storage 계정에 대한 세부 정보를 볼 수 있습니다.  이러한 계정은 NetApp Backup and Recovery, NetApp Copy and Sync, NetApp Cloud Tiering 작업의 대상으로 사용될 수 있습니다.</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">콘솔 에이전트 설치</block>
-  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>Azure Blob 저장소 계정을 보려는 Azure 계정에서.</block>
   <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">탐색 메뉴에서 *저장소 &gt; 시스템*을 선택합니다.</block>
   <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">곧 Azure Blob Storage 시스템이 자동으로 표시됩니다.</block>
   <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Azure Blob Storage 시스템의 스크린샷입니다.</block>
@@ -241,4 +233,11 @@
   <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">새로운 저장소 계정 추가</block>
   <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">저장소 계정 설정 변경</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">여러분은 꽤 오랫동안 BlueXP Canvas에서 Azure Blob Storage를 볼 수 있었습니다. 이제 BlueXP 에서 직접 새로운 스토리지 계정을 추가하고 기존 스토리지 계정의 속성을 변경할 수 있습니다. <block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> .</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block> .</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="0acdb79db506f71e141b4b858a143a05" category="paragraph"><block ref="ac49df85e776f3658144e4570d832c99" category="inline-link-rx"></block> .</block>
+  <block id="5de458d476f48f2b48be07aaa2ed728d" category="paragraph"><block ref="fa6adc59d924d47a66d1ce7306342ebd" category="inline-link-rx"></block> .</block>
+  <block id="b7a9d1a982d7ad533f67bfcc152c0150" category="paragraph"><block ref="eb3ec74247e0c67b8ffacea7d75f8527" category="inline-link-rx"></block> .</block>
+  <block id="de55cf1dcb46cf880eafc22afc211f46" category="list-text"><block ref="2ffbb079efc75d97cc35ff4a4c0cfde8" category="inline-link-rx"></block>Azure Blob 저장소 계정을 보려는 Azure 계정에서.</block>
 </blocks>
